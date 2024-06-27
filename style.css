@@ -34,7 +34,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fff9f3;
-    background-image: url(/assents/images/black-background-04-coolbackgrounds.png);
+    background-image: url(black-background-04-coolbackgrounds.png);
 }
 
 header {
@@ -107,13 +107,17 @@ th {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #bdbdbd;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px 0;
     position: relative;
     width: 100%;
     bottom: 0;
+}
+
+footer p{
+    color: #000000;
 }
 
 .green-text{
